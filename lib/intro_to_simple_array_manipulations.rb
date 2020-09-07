@@ -10,7 +10,7 @@ def using_unshift(bouroughs_in_nyc, new_neighborhood)
   neighborhoods_in_northwest_brooklyn.unshift(@new_neighborhood)
 end
 
-def using_push(array, string)
+def using_unshift(array, string)
   array.unshift(string)
 end
 
