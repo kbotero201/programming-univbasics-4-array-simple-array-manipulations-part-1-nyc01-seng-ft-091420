@@ -3,7 +3,6 @@ def using_push(colors_in_the_rainbow, next_color)
   next_color = "violet"
 array.push(next_color)
 end
-puts array.push(next_color)
 
 def using_unshift(array, string)
 array.unshift(string)
@@ -12,5 +11,5 @@ end
 pop_with_args
 
 def pop_with_args(array)
-array.pop(array)
+array.pop
 end
