@@ -10,6 +10,10 @@ def using_unshift(bouroughs_in_nyc, new_neighborhood)
   neighborhoods_in_northwest_brooklyn.unshift(@new_neighborhood)
 end
 
+def using_push(array, string)
+  array.unshift(string)
+end
+
 def using_pop(array)
 array = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
   array.pop
