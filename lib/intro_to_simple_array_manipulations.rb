@@ -4,12 +4,6 @@ def using_push(colors_in_the_rainbow, next_color)
   colors_in_the_rainbow.push(next_color)
 end
 
-def using_unshift(bouroughs_in_nyc, new_neighborhood)
-  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-  @new_neighborhood = "Staten Island"
-  neighborhoods_in_northwest_brooklyn.unshift(@new_neighborhood)
-end
-
 def using_unshift(array, string)
   array.unshift(string)
 end
@@ -17,6 +11,7 @@ end
 def using_pop(array)
 array = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
   array.pop
+  return array
 end
 
 def pop_with_args(chars_in_game_of_thrones)
