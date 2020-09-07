@@ -9,5 +9,5 @@ end
 pop_with_args
 
 def pop_with_args(array)
-array.pop
+array.pop(array)
 end
