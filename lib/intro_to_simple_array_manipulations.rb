@@ -8,6 +8,6 @@ end
 
 pop_with_args
 
-def pop_with_args(array, string)
-array.unshift(string)
+def pop_with_args(array)
+array.pop
 end
