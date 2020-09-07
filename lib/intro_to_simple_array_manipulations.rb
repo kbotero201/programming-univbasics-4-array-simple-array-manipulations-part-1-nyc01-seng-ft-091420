@@ -10,8 +10,7 @@ end
 
 def using_pop(array)
 array = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
-  array.pop
-  return array
+  return array.pop
 end
 
 def pop_with_args(chars_in_game_of_thrones)
